@@ -33,6 +33,10 @@ CN = <HOSTNAME / IP_ADDRESS>
 ```
 
 ## Angular
+To run angular cli with https use
+```
+ng serve --ssl true --ssl-cert server.crt --ssl-key server.key
+```
 For using with angular and more information read:
 
 https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a
